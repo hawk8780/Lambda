@@ -11,7 +11,7 @@ Our vision is focused on making a minimalist and funtional site to give a more u
 
 Contributors:
 - Antonio Parra (Jacket6442)
-- Cristian Mancilla (cjmt1234)
+- Cristian Mansilla (cjmt1234)
 - Jose Moya (jmoyagarcia)
 - Matias Tori (toriscroom)
 - Cristian Contreras (ccontreras2018)
