@@ -63,44 +63,18 @@
     </dia:attribute>
   </dia:diagramdata>
   <dia:layer name="Fondo" visible="true" active="true">
-    <dia:object type="Standard - Image" version="0" id="O0">
+    <dia:object type="Flowchart - Box" version="0" id="O0">
       <dia:attribute name="obj_pos">
-        <dia:point val="8.51334,14.8292"/>
+        <dia:point val="6.89335,6.38091"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="8.46334,14.7792;18.3906,19.8752"/>
+        <dia:rectangle val="6.84335,6.33091;20.4408,19.678"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
-        <dia:point val="8.51334,14.8292"/>
+        <dia:point val="6.89335,6.38091"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
-        <dia:real val="9.8272342681884766"/>
-      </dia:attribute>
-      <dia:attribute name="elem_height">
-        <dia:real val="4.996039867401123"/>
-      </dia:attribute>
-      <dia:attribute name="draw_border">
-        <dia:boolean val="false"/>
-      </dia:attribute>
-      <dia:attribute name="keep_aspect">
-        <dia:boolean val="true"/>
-      </dia:attribute>
-      <dia:attribute name="file">
-        <dia:string>#navegadores-web-3.jpg#</dia:string>
-      </dia:attribute>
-    </dia:object>
-    <dia:object type="Flowchart - Box" version="0" id="O1">
-      <dia:attribute name="obj_pos">
-        <dia:point val="7.86991,6.88091"/>
-      </dia:attribute>
-      <dia:attribute name="obj_bb">
-        <dia:rectangle val="7.81991,6.83091;19.4643,20.178"/>
-      </dia:attribute>
-      <dia:attribute name="elem_corner">
-        <dia:point val="7.86991,6.88091"/>
-      </dia:attribute>
-      <dia:attribute name="elem_width">
-        <dia:real val="11.544376026064301"/>
+        <dia:real val="13.497500001490115"/>
       </dia:attribute>
       <dia:attribute name="elem_height">
         <dia:real val="13.247075930232562"/>
@@ -120,7 +94,8 @@
             <dia:string>#Usuarios que deseen comprar
 un pasaje a través de la
 página web utilizan un navegador
-web para conectarse#</dia:string>
+web para conectarse mediante el protocolo
+HTTP#</dia:string>
           </dia:attribute>
           <dia:attribute name="font">
             <dia:font family="sans" style="0" name="Helvetica"/>
@@ -129,7 +104,7 @@ web para conectarse#</dia:string>
             <dia:real val="0.80000000000000004"/>
           </dia:attribute>
           <dia:attribute name="pos">
-            <dia:point val="13.6421,12.5444"/>
+            <dia:point val="13.6421,11.6444"/>
           </dia:attribute>
           <dia:attribute name="color">
             <dia:color val="#000000"/>
@@ -140,18 +115,18 @@ web para conectarse#</dia:string>
         </dia:composite>
       </dia:attribute>
     </dia:object>
-    <dia:object type="Network - General Monitor (With Stand)" version="1" id="O2">
+    <dia:object type="Network - General Monitor (With Stand)" version="1" id="O1">
       <dia:attribute name="obj_pos">
-        <dia:point val="8.37907,6.94698"/>
+        <dia:point val="7.67907,6.69698"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="8.35407,6.92198;11.3565,10.8211"/>
+        <dia:rectangle val="7.65407,6.67198;10.6565,10.5711"/>
       </dia:attribute>
       <dia:attribute name="meta">
         <dia:composite type="dict"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
-        <dia:point val="8.37907,6.94698"/>
+        <dia:point val="7.67907,6.69698"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
         <dia:real val="2.952385285524243"/>
@@ -190,7 +165,7 @@ web para conectarse#</dia:string>
             <dia:real val="0.80000000000000004"/>
           </dia:attribute>
           <dia:attribute name="pos">
-            <dia:point val="9.85527,10.5886"/>
+            <dia:point val="9.15526,10.3386"/>
           </dia:attribute>
           <dia:attribute name="color">
             <dia:color val="#000000"/>
@@ -210,12 +185,12 @@ web para conectarse#</dia:string>
         <dia:real val="1"/>
       </dia:attribute>
     </dia:object>
-    <dia:object type="Network - Modem" version="1" id="O3">
+    <dia:object type="Network - Modem" version="1" id="O2">
       <dia:attribute name="obj_pos">
         <dia:point val="11.1864,23.8384"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="11.1064,23.7584;15.5764,26.2913"/>
+        <dia:rectangle val="11.1064,23.7584;15.5764,26.2912"/>
       </dia:attribute>
       <dia:attribute name="meta">
         <dia:composite type="dict"/>
@@ -260,7 +235,7 @@ web para conectarse#</dia:string>
             <dia:real val="0.80000000000000004"/>
           </dia:attribute>
           <dia:attribute name="pos">
-            <dia:point val="13.3414,26.0588"/>
+            <dia:point val="13.3414,26.0587"/>
           </dia:attribute>
           <dia:attribute name="color">
             <dia:color val="#000000"/>
@@ -280,16 +255,16 @@ web para conectarse#</dia:string>
         <dia:real val="1"/>
       </dia:attribute>
     </dia:object>
-    <dia:object type="Standard - Line" version="0" id="O4">
+    <dia:object type="Standard - Line" version="0" id="O3">
       <dia:attribute name="obj_pos">
-        <dia:point val="13.4585,20.1778"/>
+        <dia:point val="13.4666,19.6767"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="13.0152,20.1265;13.7386,23.8702"/>
+        <dia:rectangle val="13.0137,19.6254;13.737,23.8702"/>
       </dia:attribute>
       <dia:attribute name="conn_endpoints">
-        <dia:point val="13.4585,20.1778"/>
-        <dia:point val="13.3601,23.7584"/>
+        <dia:point val="13.4666,19.6767"/>
+        <dia:point val="13.3592,23.7584"/>
       </dia:attribute>
       <dia:attribute name="numcp">
         <dia:int val="1"/>
@@ -304,22 +279,22 @@ web para conectarse#</dia:string>
         <dia:real val="0.5"/>
       </dia:attribute>
       <dia:connections>
-        <dia:connection handle="0" to="O1" connection="16"/>
-        <dia:connection handle="1" to="O3" connection="1"/>
+        <dia:connection handle="0" to="O0" connection="16"/>
+        <dia:connection handle="1" to="O2" connection="1"/>
       </dia:connections>
     </dia:object>
-    <dia:object type="Network - General Computer (Tower)" version="1" id="O5">
+    <dia:object type="Network - General Computer (Tower)" version="1" id="O4">
       <dia:attribute name="obj_pos">
-        <dia:point val="34.0137,8.64226"/>
+        <dia:point val="35.7637,10.3423"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="34.0056,8.60226;37.2688,15.2687"/>
+        <dia:rectangle val="35.7556,10.3023;39.0189,16.9687"/>
       </dia:attribute>
       <dia:attribute name="meta">
         <dia:composite type="dict"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
-        <dia:point val="34.0137,8.64226"/>
+        <dia:point val="35.7637,10.3423"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
         <dia:real val="3.2458144348531195"/>
@@ -358,7 +333,7 @@ web para conectarse#</dia:string>
             <dia:real val="0.80000000000000004"/>
           </dia:attribute>
           <dia:attribute name="pos">
-            <dia:point val="35.6366,15.0362"/>
+            <dia:point val="37.3866,16.7362"/>
           </dia:attribute>
           <dia:attribute name="color">
             <dia:color val="#000000"/>
@@ -378,18 +353,18 @@ web para conectarse#</dia:string>
         <dia:real val="1"/>
       </dia:attribute>
     </dia:object>
-    <dia:object type="Network - A Bigtower PC" version="1" id="O6">
+    <dia:object type="Network - A Bigtower PC" version="1" id="O5">
       <dia:attribute name="obj_pos">
-        <dia:point val="50.7904,7.30721"/>
+        <dia:point val="52.1904,9.70721"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="50.7404,7.25721;53.3494,14.8841"/>
+        <dia:rectangle val="52.1404,9.65721;54.7494,17.2841"/>
       </dia:attribute>
       <dia:attribute name="meta">
         <dia:composite type="dict"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
-        <dia:point val="50.7904,7.30721"/>
+        <dia:point val="52.1904,9.70721"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
         <dia:real val="2.5089762214147386"/>
@@ -423,16 +398,16 @@ web para conectarse#</dia:string>
         <dia:real val="1"/>
       </dia:attribute>
     </dia:object>
-    <dia:object type="Standard - Line" version="0" id="O7">
+    <dia:object type="Standard - Line" version="0" id="O6">
       <dia:attribute name="obj_pos">
-        <dia:point val="33.7105,13.2708"/>
+        <dia:point val="35.3607,13.6112"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="32.2177,13.0891;33.7701,13.796"/>
+        <dia:rectangle val="32.2314,13.2816;35.4113,14.0052"/>
       </dia:attribute>
       <dia:attribute name="conn_endpoints">
-        <dia:point val="33.7105,13.2708"/>
-        <dia:point val="32.327,13.5732"/>
+        <dia:point val="35.3607,13.6112"/>
+        <dia:point val="32.3431,13.6516"/>
       </dia:attribute>
       <dia:attribute name="numcp">
         <dia:int val="1"/>
@@ -447,50 +422,50 @@ web para conectarse#</dia:string>
         <dia:real val="0.5"/>
       </dia:attribute>
       <dia:connections>
-        <dia:connection handle="0" to="O13" connection="16"/>
+        <dia:connection handle="0" to="O12" connection="16"/>
+        <dia:connection handle="1" to="O13" connection="2"/>
+      </dia:connections>
+    </dia:object>
+    <dia:object type="Standard - Line" version="0" id="O7">
+      <dia:attribute name="obj_pos">
+        <dia:point val="14.4669,23.9666"/>
+      </dia:attribute>
+      <dia:attribute name="obj_bb">
+        <dia:rectangle val="14.4015,22.7653;17.1851,24.032"/>
+      </dia:attribute>
+      <dia:attribute name="conn_endpoints">
+        <dia:point val="14.4669,23.9666"/>
+        <dia:point val="17.082,22.8737"/>
+      </dia:attribute>
+      <dia:attribute name="numcp">
+        <dia:int val="1"/>
+      </dia:attribute>
+      <dia:attribute name="end_arrow">
+        <dia:enum val="22"/>
+      </dia:attribute>
+      <dia:attribute name="end_arrow_length">
+        <dia:real val="0.5"/>
+      </dia:attribute>
+      <dia:attribute name="end_arrow_width">
+        <dia:real val="0.5"/>
+      </dia:attribute>
+      <dia:connections>
+        <dia:connection handle="0" to="O2" connection="1"/>
         <dia:connection handle="1" to="O14" connection="2"/>
       </dia:connections>
     </dia:object>
-    <dia:object type="Standard - Line" version="0" id="O8">
+    <dia:object type="Network - Laptop Computer" version="1" id="O8">
       <dia:attribute name="obj_pos">
-        <dia:point val="14.4669,23.9667"/>
+        <dia:point val="12.0239,8.76251"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="14.4015,22.7653;17.1851,24.0321"/>
-      </dia:attribute>
-      <dia:attribute name="conn_endpoints">
-        <dia:point val="14.4669,23.9667"/>
-        <dia:point val="17.0819,22.8737"/>
-      </dia:attribute>
-      <dia:attribute name="numcp">
-        <dia:int val="1"/>
-      </dia:attribute>
-      <dia:attribute name="end_arrow">
-        <dia:enum val="22"/>
-      </dia:attribute>
-      <dia:attribute name="end_arrow_length">
-        <dia:real val="0.5"/>
-      </dia:attribute>
-      <dia:attribute name="end_arrow_width">
-        <dia:real val="0.5"/>
-      </dia:attribute>
-      <dia:connections>
-        <dia:connection handle="0" to="O3" connection="1"/>
-        <dia:connection handle="1" to="O15" connection="2"/>
-      </dia:connections>
-    </dia:object>
-    <dia:object type="Network - Laptop Computer" version="1" id="O9">
-      <dia:attribute name="obj_pos">
-        <dia:point val="12.0739,9.76251"/>
-      </dia:attribute>
-      <dia:attribute name="obj_bb">
-        <dia:rectangle val="11.9877,9.71251;15.5616,12.0802"/>
+        <dia:rectangle val="11.9377,8.71251;15.5116,11.0802"/>
       </dia:attribute>
       <dia:attribute name="meta">
         <dia:composite type="dict"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
-        <dia:point val="12.0739,9.76251"/>
+        <dia:point val="12.0239,8.76251"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
         <dia:real val="3.4015146540697674"/>
@@ -524,18 +499,18 @@ web para conectarse#</dia:string>
         <dia:real val="1"/>
       </dia:attribute>
     </dia:object>
-    <dia:object type="Network - A Workstation Monitor" version="1" id="O10">
+    <dia:object type="Network - A Workstation Monitor" version="1" id="O9">
       <dia:attribute name="obj_pos">
-        <dia:point val="15.7275,6.89763"/>
+        <dia:point val="16.5775,6.64763"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="15.6775,6.84763;18.5845,9.75462"/>
+        <dia:rectangle val="16.5275,6.59763;19.4345,9.50462"/>
       </dia:attribute>
       <dia:attribute name="meta">
         <dia:composite type="dict"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
-        <dia:point val="15.7275,6.89763"/>
+        <dia:point val="16.5775,6.64763"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
         <dia:real val="2.8069881549418585"/>
@@ -569,18 +544,18 @@ web para conectarse#</dia:string>
         <dia:real val="1"/>
       </dia:attribute>
     </dia:object>
-    <dia:object type="Network - A Desktop PC" version="1" id="O11">
+    <dia:object type="Network - A Desktop PC" version="1" id="O10">
       <dia:attribute name="obj_pos">
-        <dia:point val="15.2252,9.76584"/>
+        <dia:point val="15.9752,9.61584"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="15.1752,9.71584;19.1925,11.1216"/>
+        <dia:rectangle val="15.9252,9.56584;19.9425,10.9716"/>
       </dia:attribute>
       <dia:attribute name="meta">
         <dia:composite type="dict"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
-        <dia:point val="15.2252,9.76584"/>
+        <dia:point val="15.9752,9.61584"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
         <dia:real val="3.9173495965116305"/>
@@ -614,18 +589,18 @@ web para conectarse#</dia:string>
         <dia:real val="1"/>
       </dia:attribute>
     </dia:object>
-    <dia:object type="Network - A Minitower PC" version="1" id="O12">
+    <dia:object type="Network - A Minitower PC" version="1" id="O11">
       <dia:attribute name="obj_pos">
-        <dia:point val="11.4655,7.01504"/>
+        <dia:point val="10.8655,6.76504"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="11.4155,6.96504;13.3254,9.77986"/>
+        <dia:rectangle val="10.8155,6.71504;12.7254,9.52986"/>
       </dia:attribute>
       <dia:attribute name="meta">
         <dia:composite type="dict"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
-        <dia:point val="11.4655,7.01504"/>
+        <dia:point val="10.8655,6.76504"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
         <dia:real val="1.8098815876937966"/>
@@ -659,21 +634,21 @@ web para conectarse#</dia:string>
         <dia:real val="1"/>
       </dia:attribute>
     </dia:object>
-    <dia:object type="Flowchart - Box" version="0" id="O13">
+    <dia:object type="Flowchart - Box" version="0" id="O12">
       <dia:attribute name="obj_pos">
-        <dia:point val="33.7603,7.07016"/>
+        <dia:point val="35.4103,9.175"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="33.7103,7.02016;53.5656,15.1819"/>
+        <dia:rectangle val="35.3603,9.125;55.2155,17.832"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
-        <dia:point val="33.7603,7.07016"/>
+        <dia:point val="35.4103,9.175"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
         <dia:real val="19.755247037372968"/>
       </dia:attribute>
       <dia:attribute name="elem_height">
-        <dia:real val="8.0617919232558144"/>
+        <dia:real val="8.6069519232558154"/>
       </dia:attribute>
       <dia:attribute name="border_width">
         <dia:real val="0.10000000149011612"/>
@@ -703,7 +678,7 @@ de alumno, a través del puerto 22.#</dia:string>
             <dia:real val="0.80000000000000004"/>
           </dia:attribute>
           <dia:attribute name="pos">
-            <dia:point val="43.6379,8.54105"/>
+            <dia:point val="45.2879,10.9185"/>
           </dia:attribute>
           <dia:attribute name="color">
             <dia:color val="#000000"/>
@@ -714,7 +689,7 @@ de alumno, a través del puerto 22.#</dia:string>
         </dia:composite>
       </dia:attribute>
     </dia:object>
-    <dia:object type="Network - Antenna" version="1" id="O14">
+    <dia:object type="Network - Antenna" version="1" id="O13">
       <dia:attribute name="obj_pos">
         <dia:point val="31.2649,11.6194"/>
       </dia:attribute>
@@ -764,7 +739,7 @@ de alumno, a través del puerto 22.#</dia:string>
             <dia:real val="0.80000000000000004"/>
           </dia:attribute>
           <dia:attribute name="pos">
-            <dia:point val="31.944,16.4702"/>
+            <dia:point val="31.9441,16.4702"/>
           </dia:attribute>
           <dia:attribute name="color">
             <dia:color val="#000000"/>
@@ -784,12 +759,12 @@ de alumno, a través del puerto 22.#</dia:string>
         <dia:real val="1"/>
       </dia:attribute>
     </dia:object>
-    <dia:object type="Network - Antenna" version="1" id="O15">
+    <dia:object type="Network - Antenna" version="1" id="O14">
       <dia:attribute name="obj_pos">
         <dia:point val="16.7802,20.2512"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="16.6357,20.2354;18.533,26.1096"/>
+        <dia:rectangle val="16.6357,20.2354;18.533,26.1095"/>
       </dia:attribute>
       <dia:attribute name="meta">
         <dia:composite type="dict"/>
@@ -834,7 +809,7 @@ de alumno, a través del puerto 22.#</dia:string>
             <dia:real val="0.80000000000000004"/>
           </dia:attribute>
           <dia:attribute name="pos">
-            <dia:point val="17.5843,25.8771"/>
+            <dia:point val="17.5844,25.877"/>
           </dia:attribute>
           <dia:attribute name="color">
             <dia:color val="#000000"/>
@@ -854,31 +829,31 @@ de alumno, a través del puerto 22.#</dia:string>
         <dia:real val="1"/>
       </dia:attribute>
     </dia:object>
-    <dia:object type="Standard - Line" version="0" id="O16">
+    <dia:object type="Standard - Line" version="0" id="O15">
       <dia:attribute name="obj_pos">
-        <dia:point val="17.9844,22.4128"/>
+        <dia:point val="17.9845,22.4127"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="17.9155,13.8793;31.5484,22.4817"/>
+        <dia:rectangle val="17.9155,13.8793;31.5485,22.4817"/>
       </dia:attribute>
       <dia:attribute name="conn_endpoints">
-        <dia:point val="17.9844,22.4128"/>
-        <dia:point val="31.4795,13.9482"/>
+        <dia:point val="17.9845,22.4127"/>
+        <dia:point val="31.4796,13.9483"/>
       </dia:attribute>
       <dia:attribute name="numcp">
         <dia:int val="1"/>
       </dia:attribute>
       <dia:connections>
-        <dia:connection handle="0" to="O15" connection="2"/>
-        <dia:connection handle="1" to="O14" connection="2"/>
+        <dia:connection handle="0" to="O14" connection="2"/>
+        <dia:connection handle="1" to="O13" connection="2"/>
       </dia:connections>
     </dia:object>
-    <dia:object type="Network - Firewall" version="1" id="O17">
+    <dia:object type="Network - Firewall" version="1" id="O16">
       <dia:attribute name="obj_pos">
         <dia:point val="29.3612,12.5901"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="29.2405,12.4694;31.0651,16.5937"/>
+        <dia:rectangle val="29.2405,12.4694;31.0651,16.5938"/>
       </dia:attribute>
       <dia:attribute name="meta">
         <dia:composite type="dict"/>
@@ -923,7 +898,7 @@ de alumno, a través del puerto 22.#</dia:string>
             <dia:real val="0.80000000000000004"/>
           </dia:attribute>
           <dia:attribute name="pos">
-            <dia:point val="30.0649,16.3612"/>
+            <dia:point val="30.0648,16.3613"/>
           </dia:attribute>
           <dia:attribute name="color">
             <dia:color val="#000000"/>
@@ -943,7 +918,7 @@ de alumno, a través del puerto 22.#</dia:string>
         <dia:real val="1"/>
       </dia:attribute>
     </dia:object>
-    <dia:object type="Flowchart - Box" version="0" id="O18">
+    <dia:object type="Flowchart - Box" version="0" id="O17">
       <dia:attribute name="obj_pos">
         <dia:point val="27.7322,15.8236"/>
       </dia:attribute>
@@ -988,21 +963,21 @@ de alumno, a través del puerto 22.#</dia:string>
         </dia:composite>
       </dia:attribute>
     </dia:object>
-    <dia:object type="Flowchart - Box" version="0" id="O19">
+    <dia:object type="Flowchart - Box" version="0" id="O18">
       <dia:attribute name="obj_pos">
-        <dia:point val="29.3302,-7.54117"/>
+        <dia:point val="28.45,-8.65"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="29.2802,-7.59117;43.4599,0.520626"/>
+        <dia:rectangle val="28.4,-8.7;42.9099,0.170622"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
-        <dia:point val="29.3302,-7.54117"/>
+        <dia:point val="28.45,-8.65"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
-        <dia:real val="14.079749274418628"/>
+        <dia:real val="14.409949274418629"/>
       </dia:attribute>
       <dia:attribute name="elem_height">
-        <dia:real val="8.0117919225107563"/>
+        <dia:real val="8.770621922510756"/>
       </dia:attribute>
       <dia:attribute name="border_width">
         <dia:real val="0.10000000149011612"/>
@@ -1030,7 +1005,7 @@ y modificarlos. Se conecta por el puerto 22#</dia:string>
             <dia:real val="0.80000000000000004"/>
           </dia:attribute>
           <dia:attribute name="pos">
-            <dia:point val="36.3701,-5.29527"/>
+            <dia:point val="35.655,-6.02469"/>
           </dia:attribute>
           <dia:attribute name="color">
             <dia:color val="#000000"/>
@@ -1041,7 +1016,7 @@ y modificarlos. Se conecta por el puerto 22#</dia:string>
         </dia:composite>
       </dia:attribute>
     </dia:object>
-    <dia:object type="Flowchart - Box" version="0" id="O20">
+    <dia:object type="Flowchart - Box" version="0" id="O19">
       <dia:attribute name="obj_pos">
         <dia:point val="9.60294,25.2287"/>
       </dia:attribute>
@@ -1088,7 +1063,7 @@ comúnmente#</dia:string>
         </dia:composite>
       </dia:attribute>
     </dia:object>
-    <dia:object type="Network - Modem" version="1" id="O21">
+    <dia:object type="Network - Modem" version="1" id="O20">
       <dia:attribute name="obj_pos">
         <dia:point val="33.42,2.35239"/>
       </dia:attribute>
@@ -1158,15 +1133,15 @@ comúnmente#</dia:string>
         <dia:real val="1"/>
       </dia:attribute>
     </dia:object>
-    <dia:object type="Standard - Line" version="0" id="O22">
+    <dia:object type="Standard - Line" version="0" id="O21">
       <dia:attribute name="obj_pos">
-        <dia:point val="33.3403,3.11199"/>
+        <dia:point val="33.3402,3.112"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="32.2403,2.77838;33.3937,3.50011"/>
+        <dia:rectangle val="32.2402,2.77838;33.3937,3.50011"/>
       </dia:attribute>
       <dia:attribute name="conn_endpoints">
-        <dia:point val="33.3403,3.11199"/>
+        <dia:point val="33.3402,3.112"/>
         <dia:point val="32.3518,3.18321"/>
       </dia:attribute>
       <dia:attribute name="numcp">
@@ -1182,11 +1157,11 @@ comúnmente#</dia:string>
         <dia:real val="0.5"/>
       </dia:attribute>
       <dia:connections>
-        <dia:connection handle="0" to="O21" connection="1"/>
-        <dia:connection handle="1" to="O24" connection="2"/>
+        <dia:connection handle="0" to="O20" connection="1"/>
+        <dia:connection handle="1" to="O23" connection="2"/>
       </dia:connections>
     </dia:object>
-    <dia:object type="Flowchart - Box" version="0" id="O23">
+    <dia:object type="Flowchart - Box" version="0" id="O22">
       <dia:attribute name="obj_pos">
         <dia:point val="37.5896,0.752574"/>
       </dia:attribute>
@@ -1231,12 +1206,12 @@ comúnmente#</dia:string>
         </dia:composite>
       </dia:attribute>
     </dia:object>
-    <dia:object type="Network - Antenna" version="1" id="O24">
+    <dia:object type="Network - Antenna" version="1" id="O23">
       <dia:attribute name="obj_pos">
         <dia:point val="31.0984,0.803068"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="30.9539,0.787256;32.8513,6.6614"/>
+        <dia:rectangle val="30.9539,0.787257;32.8512,6.6614"/>
       </dia:attribute>
       <dia:attribute name="meta">
         <dia:composite type="dict"/>
@@ -1301,16 +1276,16 @@ comúnmente#</dia:string>
         <dia:real val="1"/>
       </dia:attribute>
     </dia:object>
-    <dia:object type="Standard - Line" version="0" id="O25">
+    <dia:object type="Standard - Line" version="0" id="O24">
       <dia:attribute name="obj_pos">
-        <dia:point val="35.8729,0.520627"/>
+        <dia:point val="35.6058,0.169367"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="35.3735,0.464916;36.0917,2.38342"/>
+        <dia:rectangle val="35.2275,0.118816;35.9511,2.38412"/>
       </dia:attribute>
       <dia:attribute name="conn_endpoints">
-        <dia:point val="35.8729,0.520627"/>
-        <dia:point val="35.6582,2.27244"/>
+        <dia:point val="35.6058,0.169367"/>
+        <dia:point val="35.5825,2.27233"/>
       </dia:attribute>
       <dia:attribute name="numcp">
         <dia:int val="1"/>
@@ -1325,19 +1300,19 @@ comúnmente#</dia:string>
         <dia:real val="0.5"/>
       </dia:attribute>
       <dia:connections>
-        <dia:connection handle="0" to="O19" connection="16"/>
-        <dia:connection handle="1" to="O21" connection="1"/>
+        <dia:connection handle="0" to="O18" connection="16"/>
+        <dia:connection handle="1" to="O20" connection="1"/>
       </dia:connections>
     </dia:object>
-    <dia:object type="Standard - Line" version="0" id="O26">
+    <dia:object type="Standard - Line" version="0" id="O25">
       <dia:attribute name="obj_pos">
-        <dia:point val="31.9122,5.64819"/>
+        <dia:point val="31.9122,5.64821"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="31.573,5.598;32.2966,12.0633"/>
+        <dia:rectangle val="31.5731,5.59801;32.2967,12.0633"/>
       </dia:attribute>
       <dia:attribute name="conn_endpoints">
-        <dia:point val="31.9122,5.64819"/>
+        <dia:point val="31.9122,5.64821"/>
         <dia:point val="31.9373,11.9515"/>
       </dia:attribute>
       <dia:attribute name="numcp">
@@ -1353,22 +1328,22 @@ comúnmente#</dia:string>
         <dia:real val="0.5"/>
       </dia:attribute>
       <dia:connections>
-        <dia:connection handle="0" to="O24" connection="2"/>
-        <dia:connection handle="1" to="O14" connection="2"/>
+        <dia:connection handle="0" to="O23" connection="2"/>
+        <dia:connection handle="1" to="O13" connection="2"/>
       </dia:connections>
     </dia:object>
-    <dia:object type="Network - Laptop Computer" version="1" id="O27">
+    <dia:object type="Network - Laptop Computer" version="1" id="O26">
       <dia:attribute name="obj_pos">
-        <dia:point val="39.7647,-6.8082"/>
+        <dia:point val="39.3647,-7.7582"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="39.6785,-6.8582;43.1497,-4.55897"/>
+        <dia:rectangle val="39.2785,-7.8082;42.7497,-5.50897"/>
       </dia:attribute>
       <dia:attribute name="meta">
         <dia:composite type="dict"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
-        <dia:point val="39.7647,-6.8082"/>
+        <dia:point val="39.3647,-7.7582"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
         <dia:real val="3.2988503684661699"/>
@@ -1402,38 +1377,12 @@ comúnmente#</dia:string>
         <dia:real val="1"/>
       </dia:attribute>
     </dia:object>
-    <dia:object type="Standard - Image" version="0" id="O28">
-      <dia:attribute name="obj_pos">
-        <dia:point val="29.7844,-7.28838"/>
-      </dia:attribute>
-      <dia:attribute name="obj_bb">
-        <dia:rectangle val="29.7344,-7.33838;32.7866,-4.28617"/>
-      </dia:attribute>
-      <dia:attribute name="elem_corner">
-        <dia:point val="29.7844,-7.28838"/>
-      </dia:attribute>
-      <dia:attribute name="elem_width">
-        <dia:real val="2.9522054195404053"/>
-      </dia:attribute>
-      <dia:attribute name="elem_height">
-        <dia:real val="2.9522054195404053"/>
-      </dia:attribute>
-      <dia:attribute name="draw_border">
-        <dia:boolean val="false"/>
-      </dia:attribute>
-      <dia:attribute name="keep_aspect">
-        <dia:boolean val="true"/>
-      </dia:attribute>
-      <dia:attribute name="file">
-        <dia:string>#FileZilla.png#</dia:string>
-      </dia:attribute>
-    </dia:object>
-    <dia:object type="Network - Firewall" version="1" id="O29">
+    <dia:object type="Network - Firewall" version="1" id="O27">
       <dia:attribute name="obj_pos">
         <dia:point val="12.6044,20.2727"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="12.4837,20.152;14.3083,24.315"/>
+        <dia:rectangle val="12.4837,20.152;14.3083,24.2764"/>
       </dia:attribute>
       <dia:attribute name="meta">
         <dia:composite type="dict"/>
@@ -1498,7 +1447,7 @@ comúnmente#</dia:string>
         <dia:real val="1"/>
       </dia:attribute>
     </dia:object>
-    <dia:object type="Flowchart - Box" version="0" id="O30">
+    <dia:object type="Flowchart - Box" version="0" id="O28">
       <dia:attribute name="obj_pos">
         <dia:point val="7.87828,20.9211"/>
       </dia:attribute>
@@ -1543,12 +1492,12 @@ comúnmente#</dia:string>
         </dia:composite>
       </dia:attribute>
     </dia:object>
-    <dia:object type="Network - Firewall" version="1" id="O31">
+    <dia:object type="Network - Firewall" version="1" id="O29">
       <dia:attribute name="obj_pos">
         <dia:point val="31.0746,5.81447"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="30.9539,5.69376;32.7785,9.85676"/>
+        <dia:rectangle val="30.9539,5.69376;32.7785,9.81813"/>
       </dia:attribute>
       <dia:attribute name="meta">
         <dia:composite type="dict"/>
@@ -1613,7 +1562,7 @@ comúnmente#</dia:string>
         <dia:real val="1"/>
       </dia:attribute>
     </dia:object>
-    <dia:object type="Flowchart - Box" version="0" id="O32">
+    <dia:object type="Flowchart - Box" version="0" id="O30">
       <dia:attribute name="obj_pos">
         <dia:point val="26.3106,6.0844"/>
       </dia:attribute>
@@ -1657,6 +1606,94 @@ comúnmente#</dia:string>
           </dia:attribute>
         </dia:composite>
       </dia:attribute>
+    </dia:object>
+    <dia:object type="Standard - Image" version="0" id="O31">
+      <dia:attribute name="obj_pos">
+        <dia:point val="28.7758,-8.49756"/>
+      </dia:attribute>
+      <dia:attribute name="obj_bb">
+        <dia:rectangle val="28.7258,-8.54756;32.3967,-4.87667"/>
+      </dia:attribute>
+      <dia:attribute name="elem_corner">
+        <dia:point val="28.7758,-8.49756"/>
+      </dia:attribute>
+      <dia:attribute name="elem_width">
+        <dia:real val="3.5708892345428467"/>
+      </dia:attribute>
+      <dia:attribute name="elem_height">
+        <dia:real val="3.5708892345428467"/>
+      </dia:attribute>
+      <dia:attribute name="draw_border">
+        <dia:boolean val="false"/>
+      </dia:attribute>
+      <dia:attribute name="keep_aspect">
+        <dia:boolean val="true"/>
+      </dia:attribute>
+      <dia:attribute name="file">
+        <dia:string>#C:\Users\Antonio\Desktop\Filezilla2.png#</dia:string>
+      </dia:attribute>
+    </dia:object>
+    <dia:object type="Standard - Image" version="0" id="O32">
+      <dia:attribute name="obj_pos">
+        <dia:point val="11.5726,15.02"/>
+      </dia:attribute>
+      <dia:attribute name="obj_bb">
+        <dia:rectangle val="11.5226,14.97;16.2188,19.6662"/>
+      </dia:attribute>
+      <dia:attribute name="elem_corner">
+        <dia:point val="11.5726,15.02"/>
+      </dia:attribute>
+      <dia:attribute name="elem_width">
+        <dia:real val="4.5961942672729492"/>
+      </dia:attribute>
+      <dia:attribute name="elem_height">
+        <dia:real val="4.5961942672729492"/>
+      </dia:attribute>
+      <dia:attribute name="draw_border">
+        <dia:boolean val="false"/>
+      </dia:attribute>
+      <dia:attribute name="keep_aspect">
+        <dia:boolean val="true"/>
+      </dia:attribute>
+      <dia:attribute name="file">
+        <dia:string>#C:\Users\Antonio\Desktop\nav.jpg#</dia:string>
+      </dia:attribute>
+    </dia:object>
+    <dia:object type="Standard - Text" version="1" id="O33">
+      <dia:attribute name="obj_pos">
+        <dia:point val="13.6421,13.0044"/>
+      </dia:attribute>
+      <dia:attribute name="obj_bb">
+        <dia:rectangle val="13.6421,12.3644;13.6421,13.1369"/>
+      </dia:attribute>
+      <dia:attribute name="text">
+        <dia:composite type="text">
+          <dia:attribute name="string">
+            <dia:string>##</dia:string>
+          </dia:attribute>
+          <dia:attribute name="font">
+            <dia:font family="sans" style="0" name="Helvetica"/>
+          </dia:attribute>
+          <dia:attribute name="height">
+            <dia:real val="0.80000000000000004"/>
+          </dia:attribute>
+          <dia:attribute name="pos">
+            <dia:point val="13.6421,13.0044"/>
+          </dia:attribute>
+          <dia:attribute name="color">
+            <dia:color val="#000000"/>
+          </dia:attribute>
+          <dia:attribute name="alignment">
+            <dia:enum val="0"/>
+          </dia:attribute>
+        </dia:composite>
+      </dia:attribute>
+      <dia:attribute name="valign">
+        <dia:enum val="3"/>
+      </dia:attribute>
+      <dia:connections>
+        <dia:connection handle="0" to="O0" connection="16"/>
+      </dia:connections>
     </dia:object>
   </dia:layer>
 </dia:diagram>
