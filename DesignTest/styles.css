@@ -1,0 +1,61 @@
+body 
+{
+	margin : 0;
+	font-family : Arial;
+	font-size : 12pt;
+	font-weight : normal;
+	color : gray;
+	text-align : center;
+	line-height : 18px;
+	background : url('bground.jpg') top center repeat-y #111;
+}
+
+h1, h2 
+{
+	text-transform : uppercase;
+	font-family : "Arial Bold", Arial;
+	text-align : center;
+	letter-spacing : -1px;
+	line-height : 28px;
+	margin : 10px 0 10px 0;
+	color : #55FFFF;
+}
+
+#wrap 
+{
+	width : 1150px;
+	margin : 0 auto;
+	text-align : left;
+	overflow : hidden;
+}
+
+#header 
+{
+	float : left;
+	position : center;
+	width : 1150px;
+	height : 60px;
+	background : #0099AA;
+	z-index : 500;
+}
+
+#main
+{
+	background : #F2E9E1;
+	float : left;
+	width : 1150px;
+	position : center;
+	padding : 20px 0 20px 0;
+	opacity: 0.9;
+    filter: alpha(opacity=90); /* For IE8 and earlier */
+}
+#footer 
+{
+	padding : 25px 40px;
+	margin : 20px 0 0 0;
+	width : 1070px;
+	text-align : center;
+	background : #22DDDD;
+	font-weight : bold;
+	text-transform : uppercase;
+}
