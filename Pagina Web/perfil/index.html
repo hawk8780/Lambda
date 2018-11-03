@@ -18,6 +18,7 @@
 			<li><a href="#">TEST</a></li>
 			<li><a href="#">TEST</a></li>
 			<li><a href="#">TEST</a></li>
+            <li><a onclick="document.getElementById('lid01').style.display='block'">LOGIN</a></li>
 		</ul>
 		</nav>
 	</header>
@@ -28,6 +29,45 @@
 
 <p>Bienvenido a TRAYECTO.CL</p>
 <h1 class="Titulo">¡Encuentra tu mejor pasaje en bus!</h1>
+    
+<!--Hiddenlogin#################################################################################-->                
+                <div id="lid01" class="login">
+                    <span onclick="document.getElementById('lid01').style.display='none'" 
+                          class="close" title="Cerrar Login">&times;</span>
+
+<!-- TODO: Add login target php -->
+                    <form class="login-content animate" action="#">
+                        <div class="imgcontainer">
+                            <img src="avatar.png" alt="Avatar" class="avatar">
+                        </div>
+                        
+                        <div class="container">
+                            <label for="uname"><b>Nombre de Usuario</b></label>
+                            <input type="text" placeholder="Ingrese Nombre de Usuario" name="uname" required>
+                            
+                            <label for="psw"><b>Contraseña</b></label>
+                            <input type="password" placeholder="Ingrese Contraseña" name="psw" required>
+                            
+                            <button type="submit">Login</button>
+                            <label>
+                                <input type="checkbox" checked="checked" name="remember"> Remember me
+                            </label>
+                        </div>
+                        
+                        <div class="container" style="background-color:#f1f1f1">
+                            <button type="button" onclick="document.getElementById('lid01').style.display='none'" class="cancelbtn">Cancelar</button>
+
+<!-- TODO: Add registration and password recovery pages. -->
+                            <span class="psw">¿Olvido su <a href="#">contraseña</a>?</span>
+                            <span class="reg">¿No se ha <a href="#">registrado</a>?</span>
+                        </div>
+                    </form>
+                </div>
+
+<!--############################################################################################-->                
+    
+    
+    
 <form action="procesa.php" method="post" onsubmit="return Validar(this)">
 <input type="radio" id="estc1" name="estc" sol
   <input type="radio" id="est" checked>
