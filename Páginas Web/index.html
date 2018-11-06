@@ -1,10 +1,70 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
- <title>TRAYECTO.CL</title>
-<meta charset="utf-8">
-<link rel="stylesheet" type="text/css" href="estilo.css"/>
-<link rel="icon" href="icono.ico" type="image/icono.ico" sizes="16x16">
+    <title>TRAYECTO.CL</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="estilo.css"/>
+    <link rel="icon" href="icono.ico" type="image/icono.ico" sizes="16x16">
+    <script>
+        var objecto = null;
+        if (window.XMLHttpRequest) objeto = new XMLHttpRequest() //para Mozilla
+            else if (window.ActiveXObject) objeto = new ActiveXObject("Microsoft.XMLHTTP") //Para IExplorer
+
+        function HacerPeticion(){
+            var iDate = document.getElementById('fechaI').value;
+            var fDate = document.getElementById('fechaV').value;
+            var iCity = document.getElementById('ciudI').value;
+            var fCity = document.getElementById('ciudF').value;
+            url  = "getBus.php";
+            url += "?iDate=" + iDate;
+            url += "&fDate=" + fDate;
+            url += "&iCity=" + iCity;
+            url += "&fCity=" + fCity;
+            objeto.open("GET",url);
+            objeto.send();
+            objeto.onreadystatechange = ObtenerRespuesta;
+        } 
+        function ObtenerRespuesta() 
+        {
+            if(objeto.readyState==4)
+            {
+                myDiv = document.getElementById("getBusOutput"); 
+                myDiv.innerHTML = objeto.responseText;
+            }
+        }
+    
+    </script>
+    
+    <style>
+        
+        #getBusOutput
+        {
+            padding: 20px;
+        }
+        
+        table
+        {
+            padding: 12px 0px 0px 12px;
+        }
+        
+        th
+        {
+            font-size: 20px;
+            font-family: Roboto;
+            color: dimgrey;
+            border-radius: 12px 12px 0px 0px;
+            background-color: cyan;
+        }
+        
+        td
+        {
+            border-bottom: 1px solid #ddd;
+            font-size: 15px;
+            font-family: Roboto;
+            background-color: lightcyan;
+        }
+    
+    </style>
 </head>
 
 <body>
@@ -68,46 +128,49 @@
     
     
     
-<form action="procesa.php" method="post" onsubmit="return Validar(this)">
-<input type="radio" id="estc1" name="estc" sol
-  <input type="radio" id="est" checked>
+<form>
+ <!-- <input type="radio" id="est" checked>
   Solo ida
   <input type="radio" id="estc1" name="estc" idyv
   <input type="radio" id="est">
-  ida y vuelta<br>
-<label for="Fecha">Fecha de ida</label>
-<input type="date" name="fecha" id="fecha1">
-<label for="Fecha">Fecha de vuelta</label>
-<input type="date" name="fecha" id="fecha2">
-<br>
-<br>
-¿De donde partes? <select id="ciud" name="ciud">
-        <option>Temuco</option>
-		<option>Valdivia</option>
-		<option>Osorno</option>
-		<option>Puerto Montt</option>
-		<option>Concepcion</option>
-		<option>Santiago</option>
-		<option>Viña del Mar</option>
-		<option>Valparaiso</option>
+  ida y vuelta<br> -->
+    <label for="fechaI">Fecha de ida</label>
+    <input type="date" name="fechaI" id="fechaI">
+    <label for="fechaV">Fecha de vuelta (opcional)</label>
+    <input type="date" name="fechaV" id="fechaV">
+    <br><br>
+    ¿De donde partes? <select id="ciudI" name="ciudI">
+                           <option>Temuco</option>
+		                   <option>Valdivia</option>
+		                   <option>Osorno</option>
+		                   <option>Puerto Montt</option>
+		                   <option>Concepcion</option>
+		                   <option>Santiago</option>
+		                   <option>Viña del Mar</option>
+		                   <option>Valparaiso</option>
         
      </select>
-	 <br>
-	 <br>
-¿A dónde quieres ir? <select id="ciud" name="ciud">
-        <option>Temuco</option>
-		<option>Valdivia</option>
-		<option>Osorno</option>
-		<option>Puerto Montt</option>
-		<option>Concepcion</option>
-		<option>Santiago</option>
-		<option>Viña del Mar</option>
-		<option>Valparaiso</option>
+	 <br><br>
+    ¿A dónde quieres ir? <select id="ciudF" name="ciudF">
+                              <option>Temuco</option>
+		                      <option>Valdivia</option>
+		                      <option>Osorno</option>
+		                      <option>Puerto Montt</option>
+		                      <option>Concepcion</option>
+		                      <option>Santiago</option>
+		                      <option>Viña del Mar</option>
+		                      <option>Valparaiso</option>
+     </select>
+    <br><br>
+    <input type="button" value="Consultar" onclick="HacerPeticion()">
+</form>    
+    
+    <div id="getBusOutput">
         
-     </select><br>
-<br>
+    </div>
 
  <p id="miParrafo">©TRAYECTO.CL</p>
+    
 </div>
 </body>
 </html>
