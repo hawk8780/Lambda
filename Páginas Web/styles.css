@@ -7,7 +7,12 @@ body
 	color : gray;
 	text-align : center;
 	line-height : 18px;
-	background : url('bground.jpg') top center repeat-y #111;
+	background : url('bground.jpg') no-repeat center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
 }
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500);
 *:focus {
