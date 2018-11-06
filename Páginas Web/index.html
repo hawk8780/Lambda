@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+ <title>TRAYECTO.CL</title>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="estilo.css"/>
+<link rel="icon" href="icono.ico" type="image/icono.ico" sizes="16x16">
+</head>
+
+<body>
+
+<div id="Cabecera">
+ <header class="sansserif">
+				<nav id="navegador">
+			<ul >
+				<li><a href="contacto.html">Contacto</a></li>
+			<li><a href="quienessomos.html">Quiénes Somos</a></li>
+			<li><a href="index.html">Busca tu Pasaje</a></li>
+			<li><a href="acercade.html">Acerca de Nosotros</a></li>
+				<li><a href="registro.html">Registro</a></li>
+				<li><a onclick="document.getElementById('lid01').style.display='block'">LOGIN</a></li>
+			</ul>
+			</nav>
+	</header>
+</div>
+
+<div class="Contenido">
+<br>
+
+<p>Bienvenido a TRAYECTO.CL</p>
+<h1 class="Titulo">¡Encuentra tu mejor pasaje en bus!</h1>
+    
+<!--Hiddenlogin#################################################################################-->                
+                <div id="lid01" class="login">
+                    <span onclick="document.getElementById('lid01').style.display='none'" 
+                          class="close" title="Cerrar Login">&times;</span>
+
+<!-- TODO: Add login target php -->
+                    <form class="login-content animate" action="#">
+                        <div class="imgcontainer">
+                            <img src="avatar.png" alt="Avatar" class="avatar">
+                        </div>
+                        
+                        <div class="container">
+                            <label for="uname"><b>Nombre de Usuario</b></label>
+                            <input type="text" placeholder="Ingrese Nombre de Usuario" name="uname" required>
+                            
+                            <label for="psw"><b>Contraseña</b></label>
+                            <input type="password" placeholder="Ingrese Contraseña" name="psw" required>
+                            
+                            <button type="submit">Login</button>
+                            <label>
+                                <input type="checkbox" checked="checked" name="remember"> Remember me
+                            </label>
+                        </div>
+                        
+                        <div class="container" style="background-color:#f1f1f1">
+                            <button type="button" onclick="document.getElementById('lid01').style.display='none'" class="cancelbtn">Cancelar</button>
+
+<!-- TODO: Add registration and password recovery pages. -->
+                            <span class="psw">¿Olvido su <a href="#">contraseña</a>?</span>
+                            <span class="reg">¿No se ha <a href="#">registrado</a>?</span>
+                        </div>
+                    </form>
+                </div>
+
+<!--############################################################################################-->                
+    
+    
+    
+<form action="procesa.php" method="post" onsubmit="return Validar(this)">
+<input type="radio" id="estc1" name="estc" sol
+  <input type="radio" id="est" checked>
+  Solo ida
+  <input type="radio" id="estc1" name="estc" idyv
+  <input type="radio" id="est">
+  ida y vuelta<br>
+<label for="Fecha">Fecha de ida</label>
+<input type="date" name="fecha" id="fecha1">
+<label for="Fecha">Fecha de vuelta</label>
+<input type="date" name="fecha" id="fecha2">
+<br>
+<br>
+¿De donde partes? <select id="ciud" name="ciud">
+        <option>Temuco</option>
+		<option>Valdivia</option>
+		<option>Osorno</option>
+		<option>Puerto Montt</option>
+		<option>Concepcion</option>
+		<option>Santiago</option>
+		<option>Viña del Mar</option>
+		<option>Valparaiso</option>
+        
+     </select>
+	 <br>
+	 <br>
+¿A dónde quieres ir? <select id="ciud" name="ciud">
+        <option>Temuco</option>
+		<option>Valdivia</option>
+		<option>Osorno</option>
+		<option>Puerto Montt</option>
+		<option>Concepcion</option>
+		<option>Santiago</option>
+		<option>Viña del Mar</option>
+		<option>Valparaiso</option>
+        
+     </select><br>
+<br>
+
+ <p id="miParrafo">©TRAYECTO.CL</p>
+</div>
+</body>
+</html>
