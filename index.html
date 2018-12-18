@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+ <title>TRAYECTO.CL</title>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="estilo.css"/>
+<link rel="icon" href="icono.ico" type="image/icono.ico" sizes="16x16">
+<script src="JQuery.js" type="text/javascript"></script>
+<script src="script.js"></script>
+<link rel=StyleSheet href="css/bootstrap.min.css" title="Bootstrap Min">
+<script src="js/bootstrap.min.js"></script>
+<script src="npm.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script>
+    var objeto=null
+	if (window.XMLHttpRequest) objeto = new XMLHttpRequest() //para Mozilla
+	else if (window.ActiveXObject) objeto = new ActiveXObject("Microsoft.XMLHTTP") //Para IExplorer
+	
+	
+$(document).ready(function(){
+			$("#Muestra").click(muestratabla);
+			});
+			
+			
+function muestratabla(){
+		$.ajax({
+			type:"GET",
+			url:"muestratodo.php",
+			success : function(datos){
+				$("#ficha").html(datos)
+				},
+			scriptCharset:"utf-8"
+			}
+		);
+		}
+    </script>
+</head>
+
+<body>
+<div id="wrap">
+<div id="header" style="position:relative;">
+
+<h1 class="Titulo">¡Encuentra tu mejor pasaje en bus!</h1>
+
+</div>
+<div class="container-fluid">
+ <div id="main">   
+<form  id="form" name="form" method="post" onsubmit="return Validar(this)">
+<h2>Busca tu pasaje</h2>
+<input type="button" id="Muestra" value="Muestra todos los pasajes">
+<br>
+¿En que Mes deseas viajar?<select id="fecha" name="fecha">
+	<option value=12>Diciembre</option>
+	<option value=01>Enero</option>
+	</select>
+<br>
+¿De donde partes? <select id="ciudadIDA" name="ciudadIDA">
+        <option>TEMUCO</option>
+		<option>OSORNO</option>
+		<option>PUERTO MONTT</option>
+		<option>CONCEPION</option>
+		<option>SANTIAGO</option>
+		<option>CONSTITUCION</option>
+		<option>VALPARAISO</option>
+		<option>CHILLAN</option>
+        <option>PUERTO VARAS</option>
+        <option>LOS ANGELES</option>
+        <option>LOTA</option>
+        <option>IQUIQUE</option>
+        <option>TALCA</option>
+     </select>
+	 <br>
+¿A dónde quieres ir? <select id="ciudadVUELTA" name="ciudadVUELTA">
+        <option>TEMUCO</option>
+		<option>VALDIVIA</option>
+		<option>CONCEPCION</option>
+		<option>SANTIAGO</option>
+		<option>LOS ANGELES</option>
+		<option>COPIAPO</option>
+     </select><br>
+      <input id="submit" onclick="MyFunction()" type="button" value="Enviar">
+	  </form>
+<br>
+<div id="ficha" style="position:relative;text-align:center">
+</div>
+ <p id="miParrafo">©TRAYECTO.NET</p>
+</div>
+</div>
+
+
+
+<div id="footer">
+				<nav id="navegador">
+			<ul >
+				<li><a href="contacto.html">Contacto</a></li>
+				<li><a href="quienessomos.html">Quiénes Somos</a></li>
+			<li><a href="index.html">Busca tu Pasaje</a></li>
+				<li><a href="registro.html">Registro</a></li>
+				<li><a href="login.php">Login</a></li>
+			</ul>
+			</nav>
+</div>
+</div>
+</body>
+</html>
